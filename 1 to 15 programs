@@ -1,0 +1,62 @@
+# Calculate Square Root
+# n=int(input())
+# square_root=n**(1/2) # Half 0.5 or (1/2)
+# print(square_root)
+# #Approach 
+# import math
+# num=int(input())
+# square_root=math.sqrt(num)
+# print(square_root)
+
+# Calculate Area of Triangle using Height And Base
+# Height=float(input())
+# Base=float(input())
+# area=(0.5)*Base*Height
+# print(area)
+
+# Convert Kilometers to Miles
+# kilometer=float(input())
+# miles=(0.621371)*kilometer
+# print(miles)
+
+# Check if Entered No is Positive - Negative or Zero
+# n=int(input())
+# if n>0:
+#     print("Entered No is Positive")
+# elif n==0:
+#     print("Entered No is Zero")
+# else:
+#     print("Entered No is Negatve")
+#Extra my logic
+# elif n<0:
+#     print("Eetered No is Negative")
+
+# Program to check leap year or not
+# year=int(input())
+# if year %400==0 and year %100==0:
+#     print("Yes it is a LEAP YEAR")
+# elif year %4==0 and year %100 !=0 :
+#     print("Yes it is a LEAP YEAR")
+# else:
+#     print("It is not a LEAP YEAR")
+
+# Random values
+# import random 
+# num=random.randint(0,10)
+# print(num)
+    
+# Prime Number in a Range    
+# Start_Range=int(input())
+# End_Range=int(input())
+# for num in range(Start_Range,End_Range+1):
+#     if num>1:
+#         for i in range(2,num):
+#             if num%i==0:
+#                 break
+#         else:
+#             print(num)
+    
+# Convert Celcius to Fahrenheit     
+# celsius=int(input("Enter temperature in celcsius : "))
+# fahrenheit=celsius*(9/5)+32       #we can use 1.8  also sam eoutput
+# print(fahrenheit)
