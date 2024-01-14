@@ -57,6 +57,13 @@
 #             print(num)
     
 # Convert Celcius to Fahrenheit     
-# celsius=int(input("Enter temperature in celcsius : "))
-# fahrenheit=celsius*(9/5)+32       #we can use 1.8  also sam eoutput
-# print(fahrenheit)
+celsius=int(input("Enter temperature in celcsius : "))
+fahrenheit=celsius*(9/5)+32       #we can use 1.8  also sam eoutput
+print(fahrenheit)
+
+
+# Print Table of a Given Number 
+print("Enter the no you wanna see table of")
+no=int(input())
+for i in range(1,11):
+    print(no,"x",i,"=",no*i)
