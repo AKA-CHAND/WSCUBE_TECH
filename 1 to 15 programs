@@ -1,23 +1,23 @@
 # Calculate Square Root
-# n=int(input())
-# square_root=n**(1/2) # Half 0.5 or (1/2)
-# print(square_root)
-# #Approach 
-# import math
-# num=int(input())
-# square_root=math.sqrt(num)
-# print(square_root)
+n=int(input())
+square_root=n**(1/2) # Half 0.5 or (1/2)
+print(square_root)
+# Approach 
+import math
+num=int(input())
+square_root=math.sqrt(num)
+print(square_root)
 
 # Calculate Area of Triangle using Height And Base
-# Height=float(input())
-# Base=float(input())
-# area=(0.5)*Base*Height
-# print(area)
+Height=float(input())
+Base=float(input())
+area=(0.5)*Base*Height
+print(area)
 
 # Convert Kilometers to Miles
-# kilometer=float(input())
-# miles=(0.621371)*kilometer
-# print(miles)
+kilometer=float(input())
+miles=(0.621371)*kilometer
+print(miles)
 
 # Check if Entered No is Positive - Negative or Zero
 # n=int(input())
